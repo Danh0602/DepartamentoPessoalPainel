@@ -9,7 +9,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
   if (usuario === '030051' && senha === 'Admin') {
       // Armazena o identificador do colaborador no localStorage
       localStorage.setItem('userRE', usuario);
-      window.location.href = '/dashboard.html'; // Redireciona para a página do chatbot
+      window.location.href = 'dashboard.html'; // Redireciona para a página do chatbot
   } else {
       alert('Credenciais de login inválidas!'); // Exibe uma mensagem de erro caso as credenciais sejam inválidas
   }
